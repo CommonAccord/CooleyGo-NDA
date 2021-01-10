@@ -8,3 +8,6 @@ These NDAs are also the base of the Agt-NDA-CmA solution, which is one of the mo
 1.  We do the Mutual NDA.  Put the Word document in /99/Original/.
 
 2.  We modify the Word autonumbering to ease our conversion work.  We make the section numbers in the format 3.1.sec= .  
+
+3. Then we select all from the Word doc, copy, create a new .md doc in @Code, paste in the copied text.  /99/Original/... 01.md.
+
