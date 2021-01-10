@@ -11,3 +11,5 @@ These NDAs are also the base of the Agt-NDA-CmA solution, which is one of the mo
 
 3. Then we select all from the Word doc, copy, create a new .md doc in @Code, paste in the copied text.  /99/Original/... 01.md.
 
+4. Then we add the references to little widgets that will knit the document back together.  The section widgets (G/Z/ol/s19) and the agreement frame (G/Agt-Form-CmA/US/Frame/0.md). We also rename the file so that there are no spaces in the name.  The current rendering software insists that files not have any spaces in their names.  (Good design decision?)
+
