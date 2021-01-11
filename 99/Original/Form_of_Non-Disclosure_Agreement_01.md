@@ -1,12 +1,16 @@
 Doc.Ti=MUTUAL NON-DISCLOSURE AGREEMENT
 
-0.sec=THIS MUTUAL NON-DISCLOSURE AGREEMENT (this “Agreement”) is entered into between ACME, a Delaware corporation (“Company”) and the other party named on the signature page hereto (“Other Signatory”) as of __________, 20__ (the “Effective Date”), to protect the confidentiality of certain confidential information of Company or of Other Signatory to be disclosed under this Agreement solely for use in evaluating or pursuing a business relationship between the parties (the “Permitted Use”). Company and Other Signatory may be referred to herein individually as a “Party” and collectively as the “Parties.”
+CodersNote=We change this intro paragraph from the generic 0.sec to the Agreement frame's "This.sec".  We could also null out the "That.sec" from the frame, and even the "Why.Sec" but decide not to.
+
+This.sec=THIS MUTUAL NON-DISCLOSURE AGREEMENT (this “Agreement”) is entered into between ACME, a Delaware corporation (“Company”) and the other party named on the signature page hereto (“Other Signatory”) as of {EffectiveDate.YMD} (the “Effective Date”), to protect the confidentiality of certain confidential information of Company or of Other Signatory to be disclosed under this Agreement solely for use in evaluating or pursuing a business relationship between the parties (the “Permitted Use”). Company and Other Signatory may be referred to herein individually as a “Party” and collectively as the “Parties.”
 
 1.sec=As used herein, the “Confidential Information” of a Party will mean any and all technical and non-technical information disclosed by such Party (the “Disclosing Party”) to the other Party (the “Receiving Party”), which may include without limitation: (a) patent and patent applications; (b) trade secrets; (c) proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae related to the current, future, and proposed products and services of each of the Parties, such as information concerning research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans; and (d) all other information that the Receiving Party knew, or reasonably should have known, was the Confidential Information of the Disclosing Party.
 
 2.sec=Subject to Section 3, the Receiving Party agrees that at all times and notwithstanding any termination or expiration of this Agreement it will hold in strict confidence and not disclose to any third party any Confidential Information of the Disclosing Party, except as approved in writing by the Disclosing Party, and will use the Confidential Information of the Disclosing Party for no purpose other than the Permitted Use. The Receiving Party will also protect such Confidential Information with at least the same degree of care that the Receiving Party uses to protect its own Confidential Information, but in no case, less than reasonable care. The Receiving Party will limit access to the Confidential Information of the Disclosing Party to only those of the Receiving Party’s employees or authorized representatives having a need to know and who have signed confidentiality agreements containing, or are otherwise bound by, confidentiality obligations at least as restrictive as those contained herein.
 
-3.sec=The Receiving Party will not have any obligations under this Agreement with respect to a specific portion of the Confidential Information of the Disclosing Party if such Receiving Party can demonstrate with competent evidence that such portion of Confidential Information:
+CodersNote=Renaming 3.sec to become 3.0.sec, thereby becoming the intro to the list of 3.x.sec.
+
+3.0.sec=The Receiving Party will not have any obligations under this Agreement with respect to a specific portion of the Confidential Information of the Disclosing Party if such Receiving Party can demonstrate with competent evidence that such portion of Confidential Information:
 
 3.1.sec=was in the public domain at the time it was disclosed to the Receiving Party;
 
@@ -56,7 +60,7 @@ Doc.Ti=MUTUAL NON-DISCLOSURE AGREEMENT
 
 CodersNote=referencing the frame for an agreement, two parties described as P1. and P2. 
 
-=[G/Agt-Form-CmA/US/Frame/0.md] 
+=[G/Agt-Form-CmA/US/Frame/2Parties/0.md] 
 
 CodersNote=There are 19 sections in the agreement text.  They do not have titles so we us the /s19.  
 
