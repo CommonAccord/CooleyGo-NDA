@@ -13,3 +13,5 @@ These NDAs are also the base of the Agt-NDA-CmA solution, which is one of the mo
 
 4. Then we add the references to little widgets that will knit the document back together.  The section widgets (G/Z/ol/s19) and the agreement frame (G/Agt-Form-CmA/US/Frame/0.md). We also rename the file so that there are no spaces in the name.  The current rendering software insists that files not have any spaces in their names.  (Good design decision?)
 
+5. Then we parameterize the blanks in the document - for party name and date of the agreement.  We also make a form of Demo document with two parties - Acme and Quake.  
+
