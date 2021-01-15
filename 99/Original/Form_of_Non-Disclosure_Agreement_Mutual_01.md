@@ -2,7 +2,13 @@ Doc.Ti=MUTUAL NON-DISCLOSURE AGREEMENT
 
 CodersNote=We change this intro paragraph from the generic 0.sec to the {_Agreement} frame's "This.sec".  We could also null out the "That.sec" from the frame, and even the "Why.Sec" but decide not to.
 
-This.sec={Doc.Ti} (this “{Def.Agreement.sec}”) is entered into between {P1.US.N,E,A} (“{Def.Company.sec}”) and {OtherParty.cl} (“{Def.Other_Signatory.sec}”) as of {EffectiveDate.YMD} (the “{Def.Effective_Date.sec}”), to protect the confidentiality of certain confidential information of {_Company} or of {_Other_Signatory} to be disclosed under this {_Agreement} solely for use in evaluating or pursuing a business relationship between the parties (the “{Def.Permitted_Use.sec}”). {_Company} and {_Other_Signatory} may be referred to herein individually as a “{Def.Party.sec}” and collectively as the “{Def.Parties.sec}.”
+This.=[G/Z/para/s2]
+
+This.1.sec={Doc.Ti} (this “{Def.Agreement.sec}”) is entered into between {P1.US.N,E,A} (“{Def.Company.sec}”) and {OtherParty.cl} (“{Def.Other_Signatory.sec}”) as of {EffectiveDate.YMD} (the “{Def.Effective_Date.sec}”), to protect the confidentiality of certain confidential information of {This.WhoseInfo.cl} solely for use in evaluating or pursuing a business relationship between the parties (the “{Def.Permitted_Use.sec}”). 
+
+This.2.sec={_Company} and {_Other_Signatory} may be referred to herein individually as a “{Def.Party.sec}” and collectively as the “{Def.Parties.sec}.”
+
+This.WhoseInfo.cl={_Company} or of {_Other_Signatory} to be disclosed under this {_Agreement} 
 
 OtherParty.cl=the other party named on the signature page hereto
 
@@ -14,11 +20,13 @@ OtherParty.cl=the other party named on the signature page hereto
 
 1.3.sec={ConfInfo.Item.General.cl}
 
-ConfInfo.Item.General.cl={ConfInfo.Item.General.Scope.cl}, such as {ConfInfo.Item.General.Examples.cl}
+ConfInfo.Item.General.cl={ConfInfo.Item.General.Scope.cl} of each of the {_Parties}, such as {ConfInfo.Item.General.Examples.cl}
 
-ConfInfo.Item.General.Scope.cl=proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae related to the current, future, and proposed products and services of each of the {_Parties}
+ConfInfo.Item.General.Scope.cl=proprietary and confidential information, ideas, techniques, sketches, drawings, works of authorship, models, inventions, know-how, processes, apparatuses, equipment, algorithms, software programs, software source documents, and formulae related to the current, future, and proposed products and services
 
-ConfInfo.Item.General.Examples.cl=information concerning research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, and marketing plans
+ConfInfo.Item.General.Examples.cl=information concerning research, experimental work, development, design details and specifications, engineering, financial information, procurement requirements, purchasing, manufacturing, customer lists, investors, employees, business and contractual relationships, business forecasts, sales and merchandising, {ConfInfo.Item.General.Examples.And.cl}
+
+ConfInfo.Item.General.Examples.And.cl=and marketing plans
 
 1.4.sec=all other information that the {_Receiving_Party} knew, or reasonably should have known, was the {_Confidential_Information} of the {_Disclosing_Party}
 
@@ -64,7 +72,13 @@ Conf.Except.sec={Conf.Except.Intro.sec}:<ol type="a"><li>{Conf.Except.PublicWas.
 
 8.sec=The {_Receiving_Party} will not reproduce the {_Confidential_Information} of the {_Disclosing_Party} in any form except as required to accomplish the intent of this {_Agreement}. Any reproduction by a {_Receiving_Party} of any {_Confidential_Information} of the {_Disclosing_Party} will remain the property of the {_Disclosing_Party} and will contain any and all confidential or proprietary notices or legends that appear on the original, unless otherwise authorized in writing by the {_Disclosing_Party}.
 
-9.sec=This {_Agreement} will terminate {Agt.Life.End.cl}, or may be terminated by either {_Party} at any time upon {Agt.Life.Stop.Notice.cl} to the other {_Party}. Each {_Party}’s obligations under this {_Agreement} will survive termination of this {_Agreement} and will be binding upon such {_Party}’s heirs, successors, and assigns.  Each {_Party}’s obligations with respect to all {_Confidential_Information} of the other {_Party} will terminate only pursuant to Section {3.Xnum}.
+9.1.sec=This {_Agreement} will terminate {Agt.Life.End.cl}, or may be terminated by either {_Party} at any time upon {Agt.Life.Stop.Notice.cl} to the other {_Party}. 
+
+9.2.sec=Each {_Party}’s obligations under this {_Agreement} will survive termination of this {_Agreement} and will be binding upon such {_Party}’s heirs, successors, and assigns.
+
+9.3.sec=Each {_Party}’s obligations with respect to all {_Confidential_Information} of the other {_Party} will terminate only pursuant to Section {3.Xnum}.
+
+9.=[G/Z/para/s3]
 
 Agt.Life.End.cl=five (5) year(s) after the {_Effective_Date}
 
